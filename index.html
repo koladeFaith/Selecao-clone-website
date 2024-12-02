@@ -15,27 +15,49 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="">
-      <nav class="navbar navbar-expand-lg container">
-        <div class="container nav2">
-          <a class="navbar-brand text-white fs-1" href="#">Selecao</a>
-          <div class="home">
-            <button class="btn">Home</button>
-            <a>About</a>
-            <a>Services</a>
-            <a>Portfoilo</a>
-            <a>Team</a>
-            <a>Blog</a>
-            <a>Contacts</a>
-          </div>
-          <!-- <div><i class="bi bi-list"></i></div> -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-white fs-1 fw-bold" href="/">Selecao</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse home" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6">
+            <li class="nav-item active1 ">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item active2 px-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item active2 px-3">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+
+            <li class="nav-item active2 px-3">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+            <li class="nav-item active2 px-3">
+              <a class="nav-link" href="login.html">Log In</a>
+            </li>
+            <li class="nav-item active2 px-3">
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+
     <section class="herosec">
       <div
         id="carouselExampleRide"
-        class="carousel slide container"
+        class="carousel slide active3 container"
         data-bs-ride="true">
         <div class="carousel-inner">
           <div class="carousel-item active welcome">
